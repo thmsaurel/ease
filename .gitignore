@@ -1,0 +1,8 @@
+*/backup
+*.pyc
+*.apx
+venv
+docs/build
+scapy
+ease/TestCase.py
+PyAALib-1.0/

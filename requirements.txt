@@ -1,0 +1,6 @@
+configparser<=3.5.0
+jedi<=0.9.0
+pep8<=1.7.0
+pyflakes<=1.1.0
+path.py<=8.2.1
+scapy<=2.3.2

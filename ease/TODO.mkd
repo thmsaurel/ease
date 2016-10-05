@@ -1,0 +1,18 @@
+# Next Features
+* Develop install instructions (maybe virtualenv…) or create a ``setup.py`` file
+* Create a REPLAY module (see section below)
+* Find a way to launch Skyrim outside the current repository Launch
+* Delevop an cli option to launch basic instructions at startup (see section
+  below)
+* Develop user configuration
+
+## REPLAY Mode
+
+## CLI OPTIONS
+`c`: Verify file compliance
+`f`: Select a module file and add it to the default module launcher
+`F`: Select a module repository and add it to the default module launcher
+`m`: Select a module
+`o`: Select options for the module options
+`r`: launch the run function of the selected module
+`t`: Generate template
