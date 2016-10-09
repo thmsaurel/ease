@@ -5,7 +5,7 @@
 # Created By        : Thomas Aurel
 # Creation Date     : June 23th, 2016
 # Version           : 0.1
-# Last Change       : July 26th, 2016 at 04:45:07 PM
+# Last Change       : October  9th, 2016 at 03:03:28 PM
 # Last Changed By   : Thomas Aurel
 # Purpose           : Description
 #
@@ -65,7 +65,7 @@ class EOFCommand(EObjectFactory):
             return None
         if kwargs['input'] in ['back']:
             return ECommandBack()
-        if kwargs['input'] in ['env']:
+        if kwargs['input'] in ['env', 'environment']:
             return ECommandEnvironment()
         if kwargs['input'] in ['exit', 'quit']:
             return ECommandExit()
