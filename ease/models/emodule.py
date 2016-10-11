@@ -5,7 +5,7 @@
 # Created By        : Thomas Aurel
 # Creation Date     : May 25th, 2016
 # Version           : 0.1
-# Last Change       : July 27th, 2016 at 11:09:50 AM
+# Last Change       : October 11th, 2016 at 05:12:02 PM
 # Last Changed By   : Thomas Aurel
 # Purpose           : Description
 #
@@ -269,8 +269,8 @@ class EModule(EObject):
                 error = True
         # }}}
         if 'PORT' in self.options:  # {{{
-            print self._hasPort(**kwargs)
-            print not self._hasPort(port=self.options['PORT'][0], **kwargs)
+            # print self._hasPort(**kwargs)
+            # print not self._hasPort(port=self.options['PORT'][0], **kwargs)
             if not self._hasPort(port=self.options['PORT'][0], **kwargs):
                 kwargs['msg'] = 'you must define a valid port'
                 self.error(**kwargs)
